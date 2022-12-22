@@ -49,7 +49,7 @@ class Generator(nn.Module):
         fl_kernel_size = 7
         kernel_sizes = (16, 16, 4, 4)
         strides = (8, 8, 2, 2)
-        channels = 256
+        channels = 512
 
         blocks = nn.ModuleList([
             weight_norm(nn.Conv1d(
