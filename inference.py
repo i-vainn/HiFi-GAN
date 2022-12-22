@@ -7,7 +7,7 @@ from source.generator_model import Generator
 from source.dataset import MelSpectrogram
 from source.configs import MelSpectrogramConfig
 
-CHECKPOINT_URL = 'https://api.wandb.ai/files/i_vainn/hifigan/anzmldlc/checkpoints-V1/checkpoint_6ep.pth?_gl=1*a2v382*_ga*MTc4NzY3MDAxNy4xNjcwMjQwMjc2*_ga_JH1SJHJQXJ*MTY3MTcwNDY5Ny40NS4xLjE2NzE3MDc1NDYuNTMuMC4w'
+CHECKPOINT_URL = 'https://api.wandb.ai/files/i_vainn/hifigan/anzmldlc/checkpoints-V1/checkpoint_16ep.pth?_gl=1*16cg6xj*_ga*MTc4NzY3MDAxNy4xNjcwMjQwMjc2*_ga_JH1SJHJQXJ*MTY3MTczNTA3MC41MS4xLjE2NzE3MzUwODUuNDUuMC4w'
 CHECKPOINT_PATH = 'model_best.pth'
 TEST_PATH = 'data/test/wavs'
 OUTPUT_PATH = 'data/test/generated_wavs'
